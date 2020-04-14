@@ -1,0 +1,332 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) { 
+    p{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .global-title h2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .global-title h6{
+        font-size: 12px;
+    }
+    .global-title p{
+        font-size: 16px;
+    }
+    .navbar .navbar-brand{
+        margin-bottom: 15px;
+    }
+    .navbar-toggler .fa-bars {
+        color: white;
+    }
+    .header-section .navbar-nav .nav-item>.nav-link{  
+        margin-bottom: 5px;
+    }
+    .header-section ul li a {
+        padding: 0px 15px 6px 0px !important;
+    }
+    .header-section .navbar-nav .active>.nav-link {
+        background: url(../img/manu-under-bar.png) bottom left no-repeat;
+    }
+    .header-section .navbar-nav .nav-item .nav-link:hover{
+        background: url(../img/manu-under-bar.png) bottom left no-repeat; 
+    }
+    .header-section .introducing-text {
+        padding: 40px 2px;
+    }
+    .header-section .introducing-text h1 {
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .header-section .introducing-text p {
+        font-size: 16px;
+    }
+/*======Feature Section Start====== */
+    .featurs-section{
+        padding: 40px 0px;
+    }
+    .featurs-section .feature-inner .image-circle {
+        margin: 10px auto;
+    }
+    .featurs-section .feature-inner h4 {
+        font-size: 20px;
+    }
+    .featurs-section .feature-inner p {
+        font-size: 16px;
+    }
+    /* about section */
+    .about-long .about-long-list {
+        margin-top: 30px;
+    }
+    .about-short {
+        padding: 20px 0px 0px;
+    }
+    /* testimonials section */
+    .testimonial-section {
+        padding: 20px 0px 10px;
+    }
+    .testimonial-section .item {
+        padding: 10px 10px 0px 10px;
+    }
+    .testimonial-section .media {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .cta {
+        padding: 30px 0;
+    }
+    .cta h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .cta span {
+        font-size: 25px;
+    }
+    .priceing-section {
+        padding: 30px 0;
+    }
+    .priceing-section .card{
+        margin-bottom: 10px;
+    }
+    .priceing-section .card .card-body .card-text {
+        padding: 23px 33px;
+    }
+    .contact-section {
+        padding: 40px 0;
+    }
+    .main-form {
+        padding: 35px 25px 26px;
+        margin-top: 18px;
+        margin-bottom: -95px;
+    }
+    .map-section {
+        height: 216px;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .global-title h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .global-title h6{
+        font-size: 14px;
+    }
+    .global-title p{
+        font-size: 17px;
+    }
+    .navbar .navbar-brand{
+        margin-bottom: 15px;
+    }
+    .navbar-toggler .fa-bars {
+        color: white;
+    }
+    .header-section .navbar-nav .nav-item>.nav-link{  
+        margin-bottom: 5px;
+    }
+    .header-section ul li a {
+        padding: 0px 15px 6px 0px !important;
+    }
+    .header-section .navbar-nav .active>.nav-link {
+        background: url(../img/manu-under-bar.png) bottom left no-repeat;
+    }
+    .header-section .navbar-nav .nav-item .nav-link:hover{
+        background: url(../img/manu-under-bar.png) bottom left no-repeat; 
+    }
+    .header-section .introducing-text {
+        padding: 40px 2px;
+    }
+    .header-section .introducing-text h1 {
+        line-height: 45px;
+        font-size: 35px;
+    }
+    /*======Feature Section Start====== */
+    .featurs-section{
+        padding: 40px 0px;
+    }
+    .featurs-section .feature-inner .image-circle {
+        margin: 10px auto;
+    }
+    .featurs-section .feature-inner h4 {
+        font-size: 22px;
+    }
+    .featurs-section .feature-inner p {
+        font-size: 17px;
+    }
+    /* about section */
+    .about-long .about-long-list {
+        margin-top: 30px;
+    }
+    .about-short {
+        padding: 20px 0px 0px;
+    }
+    /* testimonials section */
+    .testimonial-section {
+        padding: 20px 0px 10px;
+    }
+    .testimonial-section .item {
+        padding: 10px 10px 0px 10px;
+    }
+    .testimonial-section .media {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .cta {
+        padding: 30px 0;
+    }
+    .cta h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .cta span {
+        font-size: 25px;
+    }
+    .priceing-section {
+        padding: 30px 0;
+    }
+    .priceing-section .card{
+        margin-bottom: 10px;
+    }
+    .priceing-section .card .card-body .card-text {
+        padding: 23px 33px;
+    }
+    .contact-section {
+        padding: 40px 0;
+    }
+    .main-form {
+        padding: 35px 25px 26px;
+        margin-top: 18px;
+        margin-bottom: -95px;
+    }
+    .map-section {
+        height: 216px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .global-title h2 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .global-title h6{
+        font-size: 12px;
+    }
+    .global-title p{
+        font-size: 16px;
+    }
+    .navbar .navbar-brand{
+        margin-bottom: 15px;
+    }
+    .navbar-toggler .fa-bars {
+        color: white;
+    }
+    .header-section .navbar-nav .nav-item>.nav-link{  
+        margin-bottom: 5px;
+    }
+    .header-section ul li a {
+        padding: 0px 15px 6px 0px !important;
+    }
+    .header-section .navbar-nav .active>.nav-link {
+        background: url(../img/manu-under-bar.png) bottom left no-repeat;
+    }
+    .header-section .navbar-nav .nav-item .nav-link:hover{
+        background: url(../img/manu-under-bar.png) bottom left no-repeat; 
+    }
+    .header-section .introducing-text {
+        padding: 40px 2px;
+    }
+    .header-section .introducing-text h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .header-section .devices-kopia img {
+        margin-top: 101px;
+    }
+    /*======Feature Section Start====== */
+    .featurs-section{
+        padding: 40px 0px;
+    }
+    .featurs-section .feature-inner .image-circle {
+        margin: 10px auto;
+    }
+    .featurs-section .feature-inner h4 {
+        font-size: 20px;
+    }
+    .featurs-section .feature-inner p {
+        font-size: 16px;
+    }
+    /* about section */
+    .about-long .about-long-list {
+        margin-top: 30px;
+    }
+    .about-short {
+        padding: 20px 0px 0px;
+    }
+    .about-short .right-side img{
+        margin-top: 65px;
+    }
+    /* testimonials section */
+    .testimonial-section {
+        padding: 20px 0px 10px;
+    }
+    .testimonial-section .item {
+        padding: 10px 10px 0px 10px;
+    }
+    .testimonial-section .media {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .cta {
+        padding: 30px 0;
+    }
+    .cta h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .cta span {
+        font-size: 25px;
+    }
+    .priceing-section {
+        padding: 30px 0;
+    }
+    .priceing-section .card{
+        margin-bottom: 10px;
+    }
+    .priceing-section .card .card-body .card-text {
+        padding: 23px 2px;
+    }
+    .contact-section {
+        padding: 40px 0;
+    }
+    .main-form {
+        padding: 35px 6px 30px;
+        margin-top: 18px;
+        margin-bottom: -95px;
+    }
+    .map-section {
+        height: 216px;
+    }
+    
+}

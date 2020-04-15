@@ -895,5 +895,12 @@ color: #e550ed;
  .about-section .about-right-side .about-text {
   padding: 0 5px 0 0;
   }
+  .download-section .inner-title a {
+    text-align: center;
+    margin-top: 30%;
+  }
+  .cta-section .cta-inner {
+  padding: 130px 5px 63px;
+  }
 
 }

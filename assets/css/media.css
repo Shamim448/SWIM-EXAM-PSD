@@ -162,6 +162,14 @@
       bottom: -12%;
       right: 2%;
     }
+    .cta-section .cta-inner p {
+      padding: 50px 1px 50px 0;
+      font-size: 15px;
+  }
+  .cta-section .cta-inner {
+    padding: 130px 15px 63px;
+    text-align: center;
+}
   .footer-section .footer-left {
       text-align: center;
   }
@@ -358,6 +366,14 @@
     bottom: -12%;
     right: 2%;
   }
+  .cta-section .cta-inner {
+    padding: 130px 15px 63px;
+    text-align: center;
+}
+  .cta-section .cta-inner p {
+    padding: 50px 1px 50px 0;
+    font-size: 17px;
+}
   .footer-section .footer-left {
     text-align: center;
 }

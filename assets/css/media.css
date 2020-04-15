@@ -151,10 +151,17 @@
   .download-section .inner-title a {
     text-align: center;
     margin-top: 33%;
-}
+  }
 .download-section .inner-title .title h2 {
   font-size: 30px;
-}
+  }
+  .cta-section .pipe-shape-right img {
+    width: 25%;
+    }
+    .cta-section .pipe-shape-right {
+      bottom: -12%;
+      right: 2%;
+    }
 
 }
 
@@ -311,10 +318,17 @@
   .download-section .inner-title a {
     text-align: center;
     margin-top: 33%;
-}
-.download-section .inner-title .title h2 {
+  }
+  .download-section .inner-title .title h2 {
   font-size: 30px;
-}
+  }
+  .cta-section .pipe-shape-right img {
+  width: 25%;
+  }
+  .cta-section .pipe-shape-right {
+    bottom: -12%;
+    right: 2%;
+  }
 }
 
 /* 

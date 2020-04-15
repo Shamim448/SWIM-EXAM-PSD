@@ -148,6 +148,13 @@
   .galarry-section .inner-massege p {
     font-size: 15px;
   }
+  .download-section .inner-title a {
+    text-align: center;
+    margin-top: 33%;
+}
+.download-section .inner-title .title h2 {
+  font-size: 30px;
+}
 
 }
 
@@ -301,7 +308,13 @@
   .galarry-section .inner-massege p {
     font-size: 15px;
   }
-
+  .download-section .inner-title a {
+    text-align: center;
+    margin-top: 33%;
+}
+.download-section .inner-title .title h2 {
+  font-size: 30px;
+}
 }
 
 /* 

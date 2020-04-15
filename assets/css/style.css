@@ -902,5 +902,8 @@ color: #e550ed;
   .cta-section .cta-inner {
   padding: 130px 5px 63px;
   }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes{
+    left: 3%;
+  }
 
 }

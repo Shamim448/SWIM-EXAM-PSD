@@ -67,7 +67,7 @@ body {
   background-size: cover;
 }
 .header-section .navbar{
-  padding: 120px 0 ;
+  padding: 65px 0px 120px 0;
 }
 .header-section .navbar-brand img{
   width: 130px;
@@ -340,15 +340,15 @@ body {
 background: #00dde4;
 color: #e550ed;
 }
-.carousel-control-prev {
+/* .carousel-control-prev {
   left: -65px;
 }
 .carousel-control-next {
   right: -65px;
-}
-.carousel-control-next, .carousel-control-prev {
+} 
+  .carousel-control-next, .carousel-control-prev {
   top: -15%;
-}
+}   */
 /*=====INSTRACTORS SECTION END====== */
 
 /*=====CLIANT-REVIEW SECTION START====== */
@@ -569,3 +569,324 @@ color: #e550ed;
 }
 
 /*=====FOOTER SECTION END====== */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) { 
+  p{
+    font-size: 20px;
+  }
+  .title h2 {
+    font-size: 30px;
+  }
+  .btn-info {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+  .header-section .navbar {
+    padding: 70px 0;
+  }
+  .header-section .banner-inner {
+    padding: 90px 0px 70px 0;
+    text-align: center;
+}
+  .header-section .banner-inner h1{
+    font-size: 40px;
+  }
+  .header-section .banner-inner p{
+    font-size: 23px;
+    line-height: 40px;
+    margin: 40px 0;
+  }
+  .header-section .banner-subtitle {
+    display: none;
+  }
+  .services-section {
+    padding: 80px 0 30px;
+    text-align: center;
+  }
+  .services-section .services-inner h4 {
+    font-size: 25px;
+    padding: 20px 0 15px;
+  }
+  .services-section .services-inner p {
+    font-size: 24px;
+  }
+  .courses-section {
+    padding: 90px 0 70px;
+  }
+  .courses-section .line-shape {
+    top: 9%;
+    left: -56px;
+  }
+  .courses-section .title {
+    padding-bottom: 50px;
+  }
+  .courses-section .courses-inner .courses-inner-text {
+    padding: 0px 5px;
+    text-align: center !important;
+  }
+  .courses-section .courses-inner h4 {
+    font-size: 25px;
+    padding: 29px 0 5px;
+  }
+  .courses-section .courses-inner p {
+    font-size: 20px;
+  }
+  .courses-section .courses-inner a {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .courses-section .crose {
+    right: 10%;
+  }
+  .about-section {
+    padding: 65px 0;
+    text-align: center;
+ }
+ .about-section::before {
+  content: '';
+  width: 52%;
+  height: 20%;
+  }
+  .about-section .about-right-side .about-text {
+    padding: 0 5px 0 5px;
+  }
+  .about-section .about-right-side .title h2 {
+    margin-top: 30px;
+  }
+  .about-section .about-right-side .about-text h4 {
+    font-size: 25px;
+    padding: 10px 0 5px;
+  }
+  .about-section .about-right-side .about-text p {
+    font-size: 20px;
+  }
+  .about-section .about-right-side .about-text a {
+    margin-top: 15px;
+  }
+  .about-section .pipe-shape {
+    bottom: -10%;
+    left: 5%;
+  }
+  .about-section .pipe-shape img {
+    width: 25%;
+  }
+  .instractors-section {
+    padding: 87px 0 60px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes{
+    width: 280px;
+    bottom: -48px;
+    left: 40px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes h4 {
+    font-size: 25px;
+  }
+  .instractors-section .instractor-inner .social-link {
+    padding-top: 66px;
+  }
+  /* .carousel-control-prev {
+    left: 0px;
+  }
+  .carousel-control-next {
+    right: 0px;
+  } */
+  .review-section {
+    padding: 65px 0 60px;
+  }
+  .review-section .title h2 {
+    margin-bottom: 60px;
+  }
+  .review-section .item p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px;
+  }
+  .galarry-section .title p {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .galarry-section .inner-massege p {
+    font-size: 15px;
+  }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  p{
+    font-size: 20px;
+  }
+  .title h2 {
+    font-size: 30px;
+  }
+  .btn-info {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+  .header-section .navbar {
+    padding: 70px 0;
+  }
+  .header-section .banner-inner {
+    padding: 90px 0px 70px 0;
+    text-align: center;
+}
+  .header-section .banner-inner h1{
+    font-size: 40px;
+  }
+  .header-section .banner-inner p{
+    font-size: 23px;
+    line-height: 40px;
+    margin: 40px 0;
+  }
+  .header-section .banner-subtitle {
+    display: none;
+  }
+  .services-section {
+    padding: 80px 0 30px;
+    text-align: center;
+  }
+  .services-section .services-inner h4 {
+    font-size: 25px;
+    padding: 20px 0 15px;
+  }
+  .services-section .services-inner p {
+    font-size: 24px;
+  }
+  .courses-section {
+    padding: 90px 0 70px;
+  }
+  .courses-section .line-shape {
+    top: 9%;
+    left: -56px;
+  }
+  .courses-section .title {
+    padding-bottom: 50px;
+  }
+  .courses-section .courses-inner .courses-inner-text {
+    padding: 0px 5px;
+    text-align: center !important;
+  }
+  .courses-section .courses-inner h4 {
+    font-size: 25px;
+    padding: 29px 0 5px;
+  }
+  .courses-section .courses-inner p {
+    font-size: 20px;
+  }
+  .courses-section .courses-inner a {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .courses-section .crose {
+    right: 10%;
+  }
+  .about-section {
+    padding: 65px 0;
+    text-align: center;
+ }
+ .about-section::before {
+  content: '';
+  width: 52%;
+  height: 20%;
+  }
+  .about-section .about-right-side .about-text {
+    padding: 0 5px 0 5px;
+  }
+  .about-section .about-right-side .title h2 {
+    margin-top: 30px;
+  }
+  .about-section .about-right-side .about-text h4 {
+    font-size: 25px;
+    padding: 10px 0 5px;
+  }
+  .about-section .about-right-side .about-text p {
+    font-size: 20px;
+  }
+  .about-section .about-right-side .about-text a {
+    margin-top: 15px;
+  }
+  .about-section .pipe-shape {
+    bottom: -10%;
+    left: 5%;
+  }
+  .about-section .pipe-shape img {
+    width: 25%;
+  }
+  .instractors-section {
+    padding: 87px 0 60px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes{
+    width: 280px;
+    bottom: -48px;
+    left: 40px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes h4 {
+    font-size: 25px;
+  }
+  .instractors-section .instractor-inner .social-link {
+    padding-top: 66px;
+  }
+  /* .carousel-control-prev {
+    left: 0px;
+  }
+  .carousel-control-next {
+    right: 0px;
+  } */
+  .review-section {
+    padding: 65px 0 60px;
+  }
+  .review-section .title h2 {
+    margin-bottom: 60px;
+  }
+  .review-section .item p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px;
+  }
+  .galarry-section .title p {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .galarry-section .inner-massege p {
+    font-size: 15px;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .services-section .services-inner h4 {
+    color: #444444;
+    font-size: 25px;
+  }
+  .services-section .services-inner {
+    padding: 0px 22px;
+ }
+}

@@ -840,7 +840,7 @@ color: #e550ed;
   .instractors-section .instractor-inner .instractor-content .instractor-detailes{
     width: 280px;
     bottom: -48px;
-    left: 40px;
+    left: 115px;
   }
   .instractors-section .instractor-inner .instractor-content .instractor-detailes h4 {
     font-size: 25px;
@@ -889,4 +889,11 @@ color: #e550ed;
   .services-section .services-inner {
     padding: 0px 22px;
  }
+ .courses-section .courses-inner .courses-inner-text {
+  padding: 0px 5px;
+ }
+ .about-section .about-right-side .about-text {
+  padding: 0 5px 0 0;
+  }
+
 }

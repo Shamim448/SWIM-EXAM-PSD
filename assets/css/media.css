@@ -1,118 +1,154 @@
-
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
 @media (min-width: 320px) and (max-width: 480px) { 
-    p{
-        font-size: 16px;
-    }
-    h2{
-        font-size: 25px;
-    }
-    h4{
-        font-size: 20px;
-    }
-    .global-title h2 {
-        font-size: 25px;
-        margin-bottom: 0px;
-    }
-    .global-title h6{
-        font-size: 12px;
-    }
-    .global-title p{
-        font-size: 16px;
-    }
-    .navbar .navbar-brand{
-        margin-bottom: 15px;
-    }
-    .navbar-toggler .fa-bars {
-        color: white;
-    }
-    .header-section .navbar-nav .nav-item>.nav-link{  
-        margin-bottom: 5px;
-    }
-    .header-section ul li a {
-        padding: 0px 15px 6px 0px !important;
-    }
-    .header-section .navbar-nav .active>.nav-link {
-        background: url(../img/manu-under-bar.png) bottom left no-repeat;
-    }
-    .header-section .navbar-nav .nav-item .nav-link:hover{
-        background: url(../img/manu-under-bar.png) bottom left no-repeat; 
-    }
-    .header-section .introducing-text {
-        padding: 40px 2px;
-    }
-    .header-section .introducing-text h1 {
-        line-height: 40px;
-        font-size: 28px;
-    }
-    .header-section .introducing-text p {
-        font-size: 16px;
-    }
-/*======Feature Section Start====== */
-    .featurs-section{
-        padding: 40px 0px;
-    }
-    .featurs-section .feature-inner .image-circle {
-        margin: 10px auto;
-    }
-    .featurs-section .feature-inner h4 {
-        font-size: 20px;
-    }
-    .featurs-section .feature-inner p {
-        font-size: 16px;
-    }
-    /* about section */
-    .about-long .about-long-list {
-        margin-top: 30px;
-    }
-    .about-short {
-        padding: 20px 0px 0px;
-    }
-    /* testimonials section */
-    .testimonial-section {
-        padding: 20px 0px 10px;
-    }
-    .testimonial-section .item {
-        padding: 10px 10px 0px 10px;
-    }
-    .testimonial-section .media {
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-    .cta {
-        padding: 30px 0;
-    }
-    .cta h2 {
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-    .cta span {
-        font-size: 25px;
-    }
-    .priceing-section {
-        padding: 30px 0;
-    }
-    .priceing-section .card{
-        margin-bottom: 10px;
-    }
-    .priceing-section .card .card-body .card-text {
-        padding: 23px 33px;
-    }
-    .contact-section {
-        padding: 40px 0;
-    }
-    .main-form {
-        padding: 35px 25px 26px;
-        margin-top: 18px;
-        margin-bottom: -95px;
-    }
-    .map-section {
-        height: 216px;
-    }
+  p{
+    font-size: 20px;
+  }
+  .title h2 {
+    font-size: 30px;
+  }
+  .btn-info {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+  .header-section .navbar {
+    padding: 70px 0;
+  }
+  .header-section .banner-inner {
+    padding: 90px 0px 70px 0;
+    text-align: center;
+}
+  .header-section .banner-inner h1{
+    font-size: 40px;
+  }
+  .header-section .banner-inner p{
+    font-size: 23px;
+    line-height: 40px;
+    margin: 40px 0;
+  }
+  .header-section .banner-subtitle {
+    display: none;
+  }
+  .services-section {
+    padding: 80px 0 30px;
+    text-align: center;
+  }
+  .services-section .services-inner h4 {
+    font-size: 25px;
+    padding: 20px 0 15px;
+  }
+  .services-section .services-inner p {
+    font-size: 24px;
+  }
+  .courses-section {
+    padding: 90px 0 70px;
+  }
+  .courses-section .line-shape {
+    top: 9%;
+    left: -56px;
+  }
+  .courses-section .title {
+    padding-bottom: 50px;
+  }
+  .courses-section .courses-inner .courses-inner-text {
+    padding: 0px 5px;
+    text-align: center !important;
+  }
+  .courses-section .courses-inner h4 {
+    font-size: 25px;
+    padding: 29px 0 5px;
+  }
+  .courses-section .courses-inner p {
+    font-size: 20px;
+  }
+  .courses-section .courses-inner a {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .courses-section .crose {
+    right: 10%;
+  }
+  .about-section {
+    padding: 65px 0;
+    text-align: center;
+ }
+ .about-section::before {
+  content: '';
+  width: 52%;
+  height: 20%;
+  }
+  .about-section .about-right-side .about-text {
+    padding: 0 5px 0 5px;
+  }
+  .about-section .about-right-side .title h2 {
+    margin-top: 30px;
+  }
+  .about-section .about-right-side .about-text h4 {
+    font-size: 25px;
+    padding: 10px 0 5px;
+  }
+  .about-section .about-right-side .about-text p {
+    font-size: 20px;
+  }
+  .about-section .about-right-side .about-text a {
+    margin-top: 15px;
+  }
+  .about-section .pipe-shape {
+    bottom: -10%;
+    left: 5%;
+  }
+  .about-section .pipe-shape img {
+    width: 25%;
+  }
+  .instractors-section {
+    padding: 87px 0 60px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes{
+    width: 280px;
+    bottom: -48px;
+    left: 40px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes h4 {
+    font-size: 25px;
+  }
+  .instractors-section .instractor-inner .social-link {
+    padding-top: 66px;
+  }
+  /* .carousel-control-prev {
+    left: 0px;
+  }
+  .carousel-control-next {
+    right: 0px;
+  } */
+  .review-section {
+    padding: 65px 0 60px;
+  }
+  .review-section .title h2 {
+    margin-bottom: 60px;
+  }
+  .review-section .item p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px;
+  }
+  .galarry-section .title p {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .galarry-section .inner-massege p {
+    font-size: 15px;
+  }
+
 }
 
 /* 
@@ -121,102 +157,150 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .global-title h2 {
-        font-size: 30px;
-        margin-bottom: 0px;
-    }
-    .global-title h6{
-        font-size: 14px;
-    }
-    .global-title p{
-        font-size: 17px;
-    }
-    .navbar .navbar-brand{
-        margin-bottom: 15px;
-    }
-    .navbar-toggler .fa-bars {
-        color: white;
-    }
-    .header-section .navbar-nav .nav-item>.nav-link{  
-        margin-bottom: 5px;
-    }
-    .header-section ul li a {
-        padding: 0px 15px 6px 0px !important;
-    }
-    .header-section .navbar-nav .active>.nav-link {
-        background: url(../img/manu-under-bar.png) bottom left no-repeat;
-    }
-    .header-section .navbar-nav .nav-item .nav-link:hover{
-        background: url(../img/manu-under-bar.png) bottom left no-repeat; 
-    }
-    .header-section .introducing-text {
-        padding: 40px 2px;
-    }
-    .header-section .introducing-text h1 {
-        line-height: 45px;
-        font-size: 35px;
-    }
-    /*======Feature Section Start====== */
-    .featurs-section{
-        padding: 40px 0px;
-    }
-    .featurs-section .feature-inner .image-circle {
-        margin: 10px auto;
-    }
-    .featurs-section .feature-inner h4 {
-        font-size: 22px;
-    }
-    .featurs-section .feature-inner p {
-        font-size: 17px;
-    }
-    /* about section */
-    .about-long .about-long-list {
-        margin-top: 30px;
-    }
-    .about-short {
-        padding: 20px 0px 0px;
-    }
-    /* testimonials section */
-    .testimonial-section {
-        padding: 20px 0px 10px;
-    }
-    .testimonial-section .item {
-        padding: 10px 10px 0px 10px;
-    }
-    .testimonial-section .media {
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-    .cta {
-        padding: 30px 0;
-    }
-    .cta h2 {
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-    .cta span {
-        font-size: 25px;
-    }
-    .priceing-section {
-        padding: 30px 0;
-    }
-    .priceing-section .card{
-        margin-bottom: 10px;
-    }
-    .priceing-section .card .card-body .card-text {
-        padding: 23px 33px;
-    }
-    .contact-section {
-        padding: 40px 0;
-    }
-    .main-form {
-        padding: 35px 25px 26px;
-        margin-top: 18px;
-        margin-bottom: -95px;
-    }
-    .map-section {
-        height: 216px;
-    }
+  p{
+    font-size: 20px;
+  }
+  .title h2 {
+    font-size: 30px;
+  }
+  .btn-info {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+  .header-section .navbar {
+    padding: 70px 0;
+  }
+  .header-section .banner-inner {
+    padding: 90px 0px 70px 0;
+    text-align: center;
+}
+  .header-section .banner-inner h1{
+    font-size: 40px;
+  }
+  .header-section .banner-inner p{
+    font-size: 23px;
+    line-height: 40px;
+    margin: 40px 0;
+  }
+  .header-section .banner-subtitle {
+    display: none;
+  }
+  .services-section {
+    padding: 80px 0 30px;
+    text-align: center;
+  }
+  .services-section .services-inner h4 {
+    font-size: 25px;
+    padding: 20px 0 15px;
+  }
+  .services-section .services-inner p {
+    font-size: 24px;
+  }
+  .courses-section {
+    padding: 90px 0 70px;
+  }
+  .courses-section .line-shape {
+    top: 9%;
+    left: -56px;
+  }
+  .courses-section .title {
+    padding-bottom: 50px;
+  }
+  .courses-section .courses-inner .courses-inner-text {
+    padding: 0px 5px;
+    text-align: center !important;
+  }
+  .courses-section .courses-inner h4 {
+    font-size: 25px;
+    padding: 29px 0 5px;
+  }
+  .courses-section .courses-inner p {
+    font-size: 20px;
+  }
+  .courses-section .courses-inner a {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .courses-section .crose {
+    right: 10%;
+  }
+  .about-section {
+    padding: 65px 0;
+    text-align: center;
+ }
+ .about-section::before {
+  content: '';
+  width: 52%;
+  height: 20%;
+  }
+  .about-section .about-right-side .about-text {
+    padding: 0 5px 0 5px;
+  }
+  .about-section .about-right-side .title h2 {
+    margin-top: 30px;
+  }
+  .about-section .about-right-side .about-text h4 {
+    font-size: 25px;
+    padding: 10px 0 5px;
+  }
+  .about-section .about-right-side .about-text p {
+    font-size: 20px;
+  }
+  .about-section .about-right-side .about-text a {
+    margin-top: 15px;
+  }
+  .about-section .pipe-shape {
+    bottom: -10%;
+    left: 5%;
+  }
+  .about-section .pipe-shape img {
+    width: 25%;
+  }
+  .instractors-section {
+    padding: 87px 0 60px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner {
+    margin-top: 50px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes{
+    width: 280px;
+    bottom: -48px;
+    left: 115px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes h4 {
+    font-size: 25px;
+  }
+  .instractors-section .instractor-inner .social-link {
+    padding-top: 66px;
+  }
+  /* .carousel-control-prev {
+    left: 0px;
+  }
+  .carousel-control-next {
+    right: 0px;
+  } */
+  .review-section {
+    padding: 65px 0 60px;
+  }
+  .review-section .title h2 {
+    margin-bottom: 60px;
+  }
+  .review-section .item p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px;
+  }
+  .galarry-section .title p {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .galarry-section .inner-massege p {
+    font-size: 15px;
+  }
 
 }
 
@@ -226,107 +310,28 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px){
-    .global-title h2 {
-        font-size: 26px;
-        margin-bottom: 0px;
-    }
-    .global-title h6{
-        font-size: 12px;
-    }
-    .global-title p{
-        font-size: 16px;
-    }
-    .navbar .navbar-brand{
-        margin-bottom: 15px;
-    }
-    .navbar-toggler .fa-bars {
-        color: white;
-    }
-    .header-section .navbar-nav .nav-item>.nav-link{  
-        margin-bottom: 5px;
-    }
-    .header-section ul li a {
-        padding: 0px 15px 6px 0px !important;
-    }
-    .header-section .navbar-nav .active>.nav-link {
-        background: url(../img/manu-under-bar.png) bottom left no-repeat;
-    }
-    .header-section .navbar-nav .nav-item .nav-link:hover{
-        background: url(../img/manu-under-bar.png) bottom left no-repeat; 
-    }
-    .header-section .introducing-text {
-        padding: 40px 2px;
-    }
-    .header-section .introducing-text h1 {
-        line-height: 40px;
-        font-size: 30px;
-    }
-    .header-section .devices-kopia img {
-        margin-top: 101px;
-    }
-    /*======Feature Section Start====== */
-    .featurs-section{
-        padding: 40px 0px;
-    }
-    .featurs-section .feature-inner .image-circle {
-        margin: 10px auto;
-    }
-    .featurs-section .feature-inner h4 {
-        font-size: 20px;
-    }
-    .featurs-section .feature-inner p {
-        font-size: 16px;
-    }
-    /* about section */
-    .about-long .about-long-list {
-        margin-top: 30px;
-    }
-    .about-short {
-        padding: 20px 0px 0px;
-    }
-    .about-short .right-side img{
-        margin-top: 65px;
-    }
-    /* testimonials section */
-    .testimonial-section {
-        padding: 20px 0px 10px;
-    }
-    .testimonial-section .item {
-        padding: 10px 10px 0px 10px;
-    }
-    .testimonial-section .media {
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-    .cta {
-        padding: 30px 0;
-    }
-    .cta h2 {
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-    .cta span {
-        font-size: 25px;
-    }
-    .priceing-section {
-        padding: 30px 0;
-    }
-    .priceing-section .card{
-        margin-bottom: 10px;
-    }
-    .priceing-section .card .card-body .card-text {
-        padding: 23px 2px;
-    }
-    .contact-section {
-        padding: 40px 0;
-    }
-    .main-form {
-        padding: 35px 6px 30px;
-        margin-top: 18px;
-        margin-bottom: -95px;
-    }
-    .map-section {
-        height: 216px;
-    }
-    
+  .services-section .services-inner h4 {
+    color: #444444;
+    font-size: 25px;
+  }
+  .services-section .services-inner {
+    padding: 0px 22px;
+ }
+ .courses-section .courses-inner .courses-inner-text {
+  padding: 0px 5px;
+ }
+ .about-section .about-right-side .about-text {
+  padding: 0 5px 0 0;
+  }
+  .download-section .inner-title a {
+    text-align: center;
+    margin-top: 30%;
+  }
+  .cta-section .cta-inner {
+  padding: 130px 5px 63px;
+  }
+  .instractors-section .instractor-inner .instractor-content .instractor-detailes{
+    left: 3%;
+  }
+
 }

@@ -67,7 +67,7 @@ body {
   background-size: cover;
 }
 .header-section .navbar{
-  padding: 65px 0px 120px 0;
+  padding: 65px 0 120px 0 ;
 }
 .header-section .navbar-brand img{
   width: 130px;
@@ -340,15 +340,15 @@ body {
 background: #00dde4;
 color: #e550ed;
 }
-/* .carousel-control-prev {
+.carousel-control-prev {
   left: -65px;
 }
 .carousel-control-next {
   right: -65px;
-} 
-  .carousel-control-next, .carousel-control-prev {
+}
+.carousel-control-next, .carousel-control-prev {
   top: -15%;
-}   */
+}
 /*=====INSTRACTORS SECTION END====== */
 
 /*=====CLIANT-REVIEW SECTION START====== */
@@ -540,33 +540,40 @@ color: #e550ed;
 .footer-section .footer-right .social-link{
     margin-top: 60px;
 }
-.footer-section .footer-right .social-link ul li {
+.footer-section .footer-right .social-links ul{
+  text-align: center;
+}
+.footer-section .footer-right .social-links ul li {
   list-style: none;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
   color: #fff;
+  display: inline;
+  padding: 5px;
+  float: left;
 }
 
-.footer-section .footer-right .social-link ul li a i {
+.footer-section .footer-right .social-links ul li a i {
   color: #432e8b;
   text-align: center;
   font-size: 18px;
   height: 40px;
   width: 40px;
-  float: left;
   line-height: 40px;
   border: 1px solid #fff;
-  border-radius: 100%;
-  margin-right: 20px;
+  border-radius: 50%;
   transition: .35s ease-in;
   background: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
-.footer-section .footer-right .social-link ul li a:hover i {
+.footer-section .footer-right .social-links ul li a:hover i {
   background: #e550ed;
   color: #432e8b;
 }
 
 /*=====FOOTER SECTION END====== */
-

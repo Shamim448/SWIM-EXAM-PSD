@@ -7,6 +7,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   width: 100%;
+  scroll-behavior: smooth;
 
 
 
@@ -577,3 +578,17 @@ color: #e550ed;
 }
 
 /*=====FOOTER SECTION END====== */
+.arrow-top {
+  bottom: 57px;
+  right: 50px;
+  background: #00dde4;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  color: #ffff;
+  opacity: .5;
+}

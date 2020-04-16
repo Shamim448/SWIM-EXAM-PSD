@@ -579,15 +579,15 @@ color: #e550ed;
 
 /*=====FOOTER SECTION END====== */
 .arrow-top {
-  bottom: 57px;
-  right: 50px;
+  bottom: 37px;
+  right: 30px;
   background: #00dde4;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: fixed;
   border-radius: 5px;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   font-size: 25px;
   color: #ffff;
   opacity: .5;

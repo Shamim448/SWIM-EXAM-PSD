@@ -198,6 +198,14 @@
   .footer-section .footer-right .social-links ul li {
      float: none;
   }
+  .arrow-top {
+    bottom: 37px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    opacity: .5;
+  }
 
 }
 
@@ -400,7 +408,15 @@ text-align: center;
 }
 .footer-section .footer-right .social-links ul li {
   float: none;
-}
+  }
+  .arrow-top {
+    bottom: 37px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    opacity: .5;
+  }
 }
 
 /* 
@@ -431,6 +447,14 @@ text-align: center;
   }
   .instractors-section .instractor-inner .instractor-content .instractor-detailes{
     left: 3%;
+  }
+  .arrow-top {
+    bottom: 37px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    opacity: .5;
   }
 
 }

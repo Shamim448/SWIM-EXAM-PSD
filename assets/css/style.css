@@ -132,7 +132,7 @@ body {
   color: #00dde4;
 }
 .dropdown-toggle::after {
-  display: none;
+  display: none!important;
 }
 .dropdown-menu {
   right: 0!important;

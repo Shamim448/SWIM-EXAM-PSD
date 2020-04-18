@@ -131,7 +131,7 @@ body {
 .header-section .banner-subtitle span{
   color: #00dde4;
 }
-.dropdown-toggle::after {
+#navbarDropdown .nav-link .dropdown-toggle::after {
   display: none!important;
 }
 .dropdown-menu {
